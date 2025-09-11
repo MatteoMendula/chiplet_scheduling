@@ -1,0 +1,809 @@
+
+
+
+Num MACs: 1024
+
+[Performance Analysis]
+Runtime: 2049 cycles
+Throughput: 0.499756 MACs/cycle
+[Buffer Access Analysis]
+Tensor input
+L2 size requirement: 2
+L1 size requirement: 2
+L2 buffer write: 1024
+L2 buffer read: 1024
+L1 buffer write: 1024
+L1 buffer read: 1024
+Data reuse factor: 1
+Tensor filter
+L2 size requirement: 2
+L1 size requirement: 2
+L2 buffer write: 1
+L2 buffer read: 1
+L1 buffer write: 1
+L1 buffer read: 1024
+Data reuse factor: 1024
+Tensor output
+L2 size requirement: 2
+L1 size requirement: 2
+L2 buffer write: 1024
+L2 buffer read: 1024
+L1 buffer write: 1024
+L1 buffer read: 1024
+Data reuse factor: 1
+Overall data reuse factor: 1.49927
+[Energy Analysis]
+-For each data class
+Tensor input
+L2 buffer write energy: 19056.6 X MAC energy
+L2 buffer read energy: 19056.6 X MAC energy
+L1 buffer write energy: 1720.32 X MAC energy
+L1 buffer read energy: 1720.32 X MAC energy
+Tensor filter
+L2 buffer write energy: 18.61 X MAC energy
+L2 buffer read energy: 18.61 X MAC energy
+L1 buffer write energy: 1.68 X MAC energy
+L1 buffer read energy: 1720.32 X MAC energy
+Tensor output
+L2 buffer write energy: 19056.6 X MAC energy
+L2 buffer read energy: 19056.6 X MAC energy
+L1 buffer write energy: 1720.32 X MAC energy
+L1 buffer read energy: 1720.32 X MAC energy
+
+[Summary]
+Total L2 buffer requirement: 6
+Total L1 buffer requirement: 6
+Total L2 buffer write energy: 38131.9 X MAC energy
+Total L2 buffer read energy: 38131.9 X MAC energy
+Total L1 buffer write energy: 3442.32 X MAC energy
+Total L1 buffer read energy: 5160.96 X MAC energy
+Total MAC energy: 1024 X MAC energy
+Peak bandwidth requirement: 1
+Avg bandwidth requirement: 0.499023
+
+Total energy consumption: 85891.1 X MAC energy
+Runtime: 2049 cycles
+Throughput: 0.499756 MACs/cycle
+Performance per MAC energy: 5.81849e-06 MACs/cycle/(MAC_energy)
+Ingress Delay
+Min: 1
+Max: 1
+Avg: 1
+Egress Delay
+Min: 1
+Max: 1
+Avg: 1
+Computation Delay
+Min: 2
+Max: 2
+Avg: 2
+Average number of utilized PEs: 1
+Arithmetic intensity: 1
+
+
+Num MACs: 9072
+
+[Performance Analysis]
+Runtime: 4537 cycles
+Throughput: 1.99956 MACs/cycle
+[Buffer Access Analysis]
+Tensor input
+L2 size requirement: 4
+L1 size requirement: 4
+L2 buffer write: 784
+L2 buffer read: 1566
+L1 buffer write: 1566
+L1 buffer read: 9072
+Data reuse factor: 5.7931
+Tensor filter
+L2 size requirement: 16
+L1 size requirement: 4
+L2 buffer write: 12
+L2 buffer read: 12
+L1 buffer write: 12
+L1 buffer read: 9072
+Data reuse factor: 756
+Tensor output
+L2 size requirement: 8
+L1 size requirement: 4
+L2 buffer write: 4536
+L2 buffer read: 4536
+L1 buffer write: 9072
+L1 buffer read: 9072
+Data reuse factor: 1
+Overall data reuse factor: 2.55549
+[Energy Analysis]
+-For each data class
+Tensor input
+L2 buffer write energy: 14590.2 X MAC energy
+L2 buffer read energy: 29143.3 X MAC energy
+L1 buffer write energy: 2630.88 X MAC energy
+L1 buffer read energy: 15241 X MAC energy
+Tensor filter
+L2 buffer write energy: 223.32 X MAC energy
+L2 buffer read energy: 223.32 X MAC energy
+L1 buffer write energy: 20.16 X MAC energy
+L1 buffer read energy: 15241 X MAC energy
+Tensor output
+L2 buffer write energy: 84415 X MAC energy
+L2 buffer read energy: 84415 X MAC energy
+L1 buffer write energy: 15241 X MAC energy
+L1 buffer read energy: 15241 X MAC energy
+
+[Summary]
+Total L2 buffer requirement: 28
+Total L1 buffer requirement: 12
+Total L2 buffer write energy: 99228.5 X MAC energy
+Total L2 buffer read energy: 113782 X MAC energy
+Total L1 buffer write energy: 17892 X MAC energy
+Total L1 buffer read energy: 45722.9 X MAC energy
+Total MAC energy: 9072 X MAC energy
+Peak bandwidth requirement: 3
+Avg bandwidth requirement: 1.00066
+
+Total energy consumption: 285697 X MAC energy
+Runtime: 4537 cycles
+Throughput: 1.99956 MACs/cycle
+Performance per MAC energy: 6.99888e-06 MACs/cycle/(MAC_energy)
+Ingress Delay
+Min: 1
+Max: 1
+Avg: 1
+Egress Delay
+Min: 1
+Max: 1
+Avg: 1
+Computation Delay
+Min: 3
+Max: 3
+Avg: 3
+Average number of utilized PEs: 3
+Arithmetic intensity: 8
+
+
+Num MACs: 10240
+
+[Performance Analysis]
+Runtime: 1289 cycles
+Throughput: 7.94414 MACs/cycle
+[Buffer Access Analysis]
+Tensor input
+L2 size requirement: 64
+L1 size requirement: 4
+L2 buffer write: 400
+L2 buffer read: 1504
+L1 buffer write: 1504
+L1 buffer read: 10240
+Data reuse factor: 6.80851
+Tensor filter
+L2 size requirement: 256
+L1 size requirement: 4
+L2 buffer write: 512
+L2 buffer read: 512
+L1 buffer write: 512
+L1 buffer read: 10240
+Data reuse factor: 20
+Tensor output
+L2 size requirement: 8
+L1 size requirement: 4
+L2 buffer write: 320
+L2 buffer read: 320
+L1 buffer write: 10240
+L1 buffer read: 10240
+Data reuse factor: 1
+Overall data reuse factor: 2.50653
+[Energy Analysis]
+-For each data class
+Tensor input
+L2 buffer write energy: 7444 X MAC energy
+L2 buffer read energy: 27989.4 X MAC energy
+L1 buffer write energy: 2526.72 X MAC energy
+L1 buffer read energy: 17203.2 X MAC energy
+Tensor filter
+L2 buffer write energy: 9528.32 X MAC energy
+L2 buffer read energy: 9528.32 X MAC energy
+L1 buffer write energy: 860.16 X MAC energy
+L1 buffer read energy: 17203.2 X MAC energy
+Tensor output
+L2 buffer write energy: 5955.2 X MAC energy
+L2 buffer read energy: 5955.2 X MAC energy
+L1 buffer write energy: 17203.2 X MAC energy
+L1 buffer read energy: 17203.2 X MAC energy
+
+[Summary]
+Total L2 buffer requirement: 328
+Total L1 buffer requirement: 12
+Total L2 buffer write energy: 22927.5 X MAC energy
+Total L2 buffer read energy: 43473 X MAC energy
+Total L1 buffer write energy: 20590.1 X MAC energy
+Total L1 buffer read energy: 51609.6 X MAC energy
+Total MAC energy: 10240 X MAC energy
+Peak bandwidth requirement: 17
+Avg bandwidth requirement: 2.7625
+
+Total energy consumption: 148840 X MAC energy
+Runtime: 1289 cycles
+Throughput: 7.94414 MACs/cycle
+Performance per MAC energy: 5.33737e-05 MACs/cycle/(MAC_energy)
+Ingress Delay
+Min: 2
+Max: 16
+Avg: 2
+Egress Delay
+Min: 1
+Max: 1
+Avg: 1
+Computation Delay
+Min: 9
+Max: 9
+Avg: 9
+Average number of utilized PEs: 64
+Arithmetic intensity: 8
+
+
+Num MACs: 493920
+
+[Performance Analysis]
+Runtime: 66533 cycles
+Throughput: 7.42368 MACs/cycle
+[Buffer Access Analysis]
+Tensor input
+L2 size requirement: 6272
+L1 size requirement: 98
+L2 buffer write: 5880
+L2 buffer read: 68992
+L1 buffer write: 68992
+L1 buffer read: 493920
+Data reuse factor: 7.15909
+Tensor filter
+L2 size requirement: 25088
+L1 size requirement: 98
+L2 buffer write: 493920
+L2 buffer read: 526848
+L1 buffer write: 526848
+L1 buffer read: 493920
+Data reuse factor: 0.9375
+Tensor output
+L2 size requirement: 8
+L1 size requirement: 98
+L2 buffer write: 168
+L2 buffer read: 84
+L1 buffer write: 493920
+L1 buffer read: 493920
+Data reuse factor: 1
+Overall data reuse factor: 1.35971
+[Energy Analysis]
+-For each data class
+Tensor input
+L2 buffer write energy: 109427 X MAC energy
+L2 buffer read energy: 1.28394e+06 X MAC energy
+L1 buffer write energy: 115907 X MAC energy
+L1 buffer read energy: 829786 X MAC energy
+Tensor filter
+L2 buffer write energy: 9.19185e+06 X MAC energy
+L2 buffer read energy: 9.80464e+06 X MAC energy
+L1 buffer write energy: 885105 X MAC energy
+L1 buffer read energy: 829786 X MAC energy
+Tensor output
+L2 buffer write energy: 3126.48 X MAC energy
+L2 buffer read energy: 1563.24 X MAC energy
+L1 buffer write energy: 829786 X MAC energy
+L1 buffer read energy: 829786 X MAC energy
+
+[Summary]
+Total L2 buffer requirement: 31368
+Total L1 buffer requirement: 294
+Total L2 buffer write energy: 9.3044e+06 X MAC energy
+Total L2 buffer read energy: 1.10901e+07 X MAC energy
+Total L1 buffer write energy: 1.8308e+06 X MAC energy
+Total L1 buffer read energy: 2.48936e+06 X MAC energy
+Total MAC energy: 493920 X MAC energy
+Peak bandwidth requirement: 23
+Avg bandwidth requirement: 20.9286
+
+Total energy consumption: 2.52086e+07 X MAC energy
+Runtime: 66533 cycles
+Throughput: 7.42368 MACs/cycle
+Performance per MAC energy: 2.9449e-07 MACs/cycle/(MAC_energy)
+Ingress Delay
+Min: 1255
+Max: 1568
+Avg: 1418
+Egress Delay
+Min: 1
+Max: 1
+Avg: 1
+Computation Delay
+Min: 677
+Max: 677
+Avg: 677
+Average number of utilized PEs: 256
+Arithmetic intensity: 0.7
+
+
+Num MACs: 13104
+
+[Performance Analysis]
+Runtime: 2189 cycles
+Throughput: 5.9863 MACs/cycle
+[Buffer Access Analysis]
+Tensor input
+L2 size requirement: 24
+L1 size requirement: 4
+L2 buffer write: 1176
+L2 buffer read: 2340
+L1 buffer write: 2340
+L1 buffer read: 13104
+Data reuse factor: 5.6
+Tensor filter
+L2 size requirement: 96
+L1 size requirement: 4
+L2 buffer write: 72
+L2 buffer read: 72
+L1 buffer write: 72
+L1 buffer read: 13104
+Data reuse factor: 182
+Tensor output
+L2 size requirement: 8
+L1 size requirement: 4
+L2 buffer write: 1092
+L2 buffer read: 1092
+L1 buffer write: 13104
+L1 buffer read: 13104
+Data reuse factor: 1
+Overall data reuse factor: 2.53364
+[Energy Analysis]
+-For each data class
+Tensor input
+L2 buffer write energy: 21885.4 X MAC energy
+L2 buffer read energy: 43547.4 X MAC energy
+L1 buffer write energy: 3931.2 X MAC energy
+L1 buffer read energy: 22014.7 X MAC energy
+Tensor filter
+L2 buffer write energy: 1339.92 X MAC energy
+L2 buffer read energy: 1339.92 X MAC energy
+L1 buffer write energy: 120.96 X MAC energy
+L1 buffer read energy: 22014.7 X MAC energy
+Tensor output
+L2 buffer write energy: 20322.1 X MAC energy
+L2 buffer read energy: 20322.1 X MAC energy
+L1 buffer write energy: 22014.7 X MAC energy
+L1 buffer read energy: 22014.7 X MAC energy
+
+[Summary]
+Total L2 buffer requirement: 128
+Total L1 buffer requirement: 12
+Total L2 buffer write energy: 43547.4 X MAC energy
+Total L2 buffer read energy: 65209.4 X MAC energy
+Total L1 buffer write energy: 26066.9 X MAC energy
+Total L1 buffer read energy: 66044.2 X MAC energy
+Total MAC energy: 13104 X MAC energy
+Peak bandwidth requirement: 12
+Avg bandwidth requirement: 1.31868
+
+Total energy consumption: 213972 X MAC energy
+Runtime: 2189 cycles
+Throughput: 5.9863 MACs/cycle
+Performance per MAC energy: 2.7977e-05 MACs/cycle/(MAC_energy)
+Ingress Delay
+Min: 1
+Max: 6
+Avg: 1
+Egress Delay
+Min: 1
+Max: 1
+Avg: 1
+Computation Delay
+Min: 5
+Max: 5
+Avg: 5
+Average number of utilized PEs: 18
+Arithmetic intensity: 8
+
+
+Num MACs: 9600
+
+[Performance Analysis]
+Runtime: 1203 cycles
+Throughput: 7.98005 MACs/cycle
+[Buffer Access Analysis]
+Tensor input
+L2 size requirement: 12
+L1 size requirement: 2
+L2 buffer write: 600
+L2 buffer read: 2382
+L1 buffer write: 2382
+L1 buffer read: 9600
+Data reuse factor: 4.03023
+Tensor filter
+L2 size requirement: 48
+L1 size requirement: 2
+L2 buffer write: 96
+L2 buffer read: 96
+L1 buffer write: 96
+L1 buffer read: 9600
+Data reuse factor: 100
+Tensor output
+L2 size requirement: 8
+L1 size requirement: 2
+L2 buffer write: 1600
+L2 buffer read: 1600
+L1 buffer write: 9600
+L1 buffer read: 9600
+Data reuse factor: 1
+Overall data reuse factor: 2.3845
+[Energy Analysis]
+-For each data class
+Tensor input
+L2 buffer write energy: 11166 X MAC energy
+L2 buffer read energy: 44329 X MAC energy
+L1 buffer write energy: 4001.76 X MAC energy
+L1 buffer read energy: 16128 X MAC energy
+Tensor filter
+L2 buffer write energy: 1786.56 X MAC energy
+L2 buffer read energy: 1786.56 X MAC energy
+L1 buffer write energy: 161.28 X MAC energy
+L1 buffer read energy: 16128 X MAC energy
+Tensor output
+L2 buffer write energy: 29776 X MAC energy
+L2 buffer read energy: 29776 X MAC energy
+L1 buffer write energy: 16128 X MAC energy
+L1 buffer read energy: 16128 X MAC energy
+
+[Summary]
+Total L2 buffer requirement: 68
+Total L1 buffer requirement: 6
+Total L2 buffer write energy: 42728.6 X MAC energy
+Total L2 buffer read energy: 75891.6 X MAC energy
+Total L1 buffer write energy: 20291 X MAC energy
+Total L1 buffer read energy: 48384 X MAC energy
+Total MAC energy: 9600 X MAC energy
+Peak bandwidth requirement: 10
+Avg bandwidth requirement: 2.065
+
+Total energy consumption: 196895 X MAC energy
+Runtime: 1203 cycles
+Throughput: 7.98005 MACs/cycle
+Performance per MAC energy: 4.05294e-05 MACs/cycle/(MAC_energy)
+Ingress Delay
+Min: 1
+Max: 3
+Avg: 1
+Egress Delay
+Min: 1
+Max: 1
+Avg: 1
+Computation Delay
+Min: 3
+Max: 3
+Avg: 3
+Average number of utilized PEs: 24
+Arithmetic intensity: 4
+
+
+Num MACs: 10240
+
+[Performance Analysis]
+Runtime: 1289 cycles
+Throughput: 7.94414 MACs/cycle
+[Buffer Access Analysis]
+Tensor input
+L2 size requirement: 64
+L1 size requirement: 4
+L2 buffer write: 400
+L2 buffer read: 1504
+L1 buffer write: 1504
+L1 buffer read: 10240
+Data reuse factor: 6.80851
+Tensor filter
+L2 size requirement: 256
+L1 size requirement: 4
+L2 buffer write: 512
+L2 buffer read: 512
+L1 buffer write: 512
+L1 buffer read: 10240
+Data reuse factor: 20
+Tensor output
+L2 size requirement: 8
+L1 size requirement: 4
+L2 buffer write: 320
+L2 buffer read: 320
+L1 buffer write: 10240
+L1 buffer read: 10240
+Data reuse factor: 1
+Overall data reuse factor: 2.50653
+[Energy Analysis]
+-For each data class
+Tensor input
+L2 buffer write energy: 7444 X MAC energy
+L2 buffer read energy: 27989.4 X MAC energy
+L1 buffer write energy: 2526.72 X MAC energy
+L1 buffer read energy: 17203.2 X MAC energy
+Tensor filter
+L2 buffer write energy: 9528.32 X MAC energy
+L2 buffer read energy: 9528.32 X MAC energy
+L1 buffer write energy: 860.16 X MAC energy
+L1 buffer read energy: 17203.2 X MAC energy
+Tensor output
+L2 buffer write energy: 5955.2 X MAC energy
+L2 buffer read energy: 5955.2 X MAC energy
+L1 buffer write energy: 17203.2 X MAC energy
+L1 buffer read energy: 17203.2 X MAC energy
+
+[Summary]
+Total L2 buffer requirement: 328
+Total L1 buffer requirement: 12
+Total L2 buffer write energy: 22927.5 X MAC energy
+Total L2 buffer read energy: 43473 X MAC energy
+Total L1 buffer write energy: 20590.1 X MAC energy
+Total L1 buffer read energy: 51609.6 X MAC energy
+Total MAC energy: 10240 X MAC energy
+Peak bandwidth requirement: 17
+Avg bandwidth requirement: 2.7625
+
+Total energy consumption: 148840 X MAC energy
+Runtime: 1289 cycles
+Throughput: 7.94414 MACs/cycle
+Performance per MAC energy: 5.33737e-05 MACs/cycle/(MAC_energy)
+Ingress Delay
+Min: 2
+Max: 16
+Avg: 2
+Egress Delay
+Min: 1
+Max: 1
+Avg: 1
+Computation Delay
+Min: 9
+Max: 9
+Avg: 9
+Average number of utilized PEs: 64
+Arithmetic intensity: 8
+
+
+Num MACs: 493920
+
+[Performance Analysis]
+Runtime: 66533 cycles
+Throughput: 7.42368 MACs/cycle
+[Buffer Access Analysis]
+Tensor input
+L2 size requirement: 6272
+L1 size requirement: 98
+L2 buffer write: 5880
+L2 buffer read: 68992
+L1 buffer write: 68992
+L1 buffer read: 493920
+Data reuse factor: 7.15909
+Tensor filter
+L2 size requirement: 25088
+L1 size requirement: 98
+L2 buffer write: 493920
+L2 buffer read: 526848
+L1 buffer write: 526848
+L1 buffer read: 493920
+Data reuse factor: 0.9375
+Tensor output
+L2 size requirement: 8
+L1 size requirement: 98
+L2 buffer write: 168
+L2 buffer read: 84
+L1 buffer write: 493920
+L1 buffer read: 493920
+Data reuse factor: 1
+Overall data reuse factor: 1.35971
+[Energy Analysis]
+-For each data class
+Tensor input
+L2 buffer write energy: 109427 X MAC energy
+L2 buffer read energy: 1.28394e+06 X MAC energy
+L1 buffer write energy: 115907 X MAC energy
+L1 buffer read energy: 829786 X MAC energy
+Tensor filter
+L2 buffer write energy: 9.19185e+06 X MAC energy
+L2 buffer read energy: 9.80464e+06 X MAC energy
+L1 buffer write energy: 885105 X MAC energy
+L1 buffer read energy: 829786 X MAC energy
+Tensor output
+L2 buffer write energy: 3126.48 X MAC energy
+L2 buffer read energy: 1563.24 X MAC energy
+L1 buffer write energy: 829786 X MAC energy
+L1 buffer read energy: 829786 X MAC energy
+
+[Summary]
+Total L2 buffer requirement: 31368
+Total L1 buffer requirement: 294
+Total L2 buffer write energy: 9.3044e+06 X MAC energy
+Total L2 buffer read energy: 1.10901e+07 X MAC energy
+Total L1 buffer write energy: 1.8308e+06 X MAC energy
+Total L1 buffer read energy: 2.48936e+06 X MAC energy
+Total MAC energy: 493920 X MAC energy
+Peak bandwidth requirement: 23
+Avg bandwidth requirement: 20.9286
+
+Total energy consumption: 2.52086e+07 X MAC energy
+Runtime: 66533 cycles
+Throughput: 7.42368 MACs/cycle
+Performance per MAC energy: 2.9449e-07 MACs/cycle/(MAC_energy)
+Ingress Delay
+Min: 1255
+Max: 1568
+Avg: 1418
+Egress Delay
+Min: 1
+Max: 1
+Avg: 1
+Computation Delay
+Min: 677
+Max: 677
+Avg: 677
+Average number of utilized PEs: 256
+Arithmetic intensity: 0.7
+
+
+Num MACs: 41160
+
+[Performance Analysis]
+Runtime: 10085 cycles
+Throughput: 4.08131 MACs/cycle
+[Buffer Access Analysis]
+Tensor input
+L2 size requirement: 6272
+L1 size requirement: 98
+L2 buffer write: 4116
+L2 buffer read: 12544
+L1 buffer write: 12544
+L1 buffer read: 41160
+Data reuse factor: 3.28125
+Tensor filter
+L2 size requirement: 25088
+L1 size requirement: 98
+L2 buffer write: 41160
+L2 buffer read: 62720
+L1 buffer write: 62720
+L1 buffer read: 41160
+Data reuse factor: 0.65625
+Tensor output
+L2 size requirement: 8
+L1 size requirement: 98
+L2 buffer write: 20
+L2 buffer read: 10
+L1 buffer write: 41160
+L1 buffer read: 41160
+Data reuse factor: 1
+Overall data reuse factor: 1.06061
+[Energy Analysis]
+-For each data class
+Tensor input
+L2 buffer write energy: 76598.8 X MAC energy
+L2 buffer read energy: 233444 X MAC energy
+L1 buffer write energy: 21073.9 X MAC energy
+L1 buffer read energy: 69148.8 X MAC energy
+Tensor filter
+L2 buffer write energy: 765988 X MAC energy
+L2 buffer read energy: 1.16722e+06 X MAC energy
+L1 buffer write energy: 105370 X MAC energy
+L1 buffer read energy: 69148.8 X MAC energy
+Tensor output
+L2 buffer write energy: 372.2 X MAC energy
+L2 buffer read energy: 186.1 X MAC energy
+L1 buffer write energy: 69148.8 X MAC energy
+L1 buffer read energy: 69148.8 X MAC energy
+
+[Summary]
+Total L2 buffer requirement: 31368
+Total L1 buffer requirement: 294
+Total L2 buffer write energy: 842959 X MAC energy
+Total L2 buffer read energy: 1.40085e+06 X MAC energy
+Total L1 buffer write energy: 195592 X MAC energy
+Total L1 buffer read energy: 207446 X MAC energy
+Total MAC energy: 41160 X MAC energy
+Peak bandwidth requirement: 23
+Avg bandwidth requirement: 18.1667
+
+Total energy consumption: 2.68801e+06 X MAC energy
+Runtime: 10085 cycles
+Throughput: 4.08131 MACs/cycle
+Performance per MAC energy: 1.51834e-06 MACs/cycle/(MAC_energy)
+Ingress Delay
+Min: 628
+Max: 1568
+Avg: 1254
+Egress Delay
+Min: 1
+Max: 1
+Avg: 1
+Computation Delay
+Min: 677
+Max: 677
+Avg: 677
+Average number of utilized PEs: 213.333
+Arithmetic intensity: 0.25
+
+
+Num MACs: 490
+
+[Performance Analysis]
+Runtime: 245 cycles
+Throughput: 2 MACs/cycle
+[Buffer Access Analysis]
+Tensor input
+L2 size requirement: 980
+L1 size requirement: 98
+L2 buffer write: 490
+L2 buffer read: 490
+L1 buffer write: 490
+L1 buffer read: 490
+Data reuse factor: 1
+Tensor filter
+L2 size requirement: 980
+L1 size requirement: 98
+L2 buffer write: 490
+L2 buffer read: 490
+L1 buffer write: 490
+L1 buffer read: 490
+Data reuse factor: 1
+Tensor output
+L2 size requirement: 2
+L1 size requirement: 98
+L2 buffer write: 1
+L2 buffer read: 1
+L1 buffer write: 490
+L1 buffer read: 490
+Data reuse factor: 1
+Overall data reuse factor: 1
+[Energy Analysis]
+-For each data class
+Tensor input
+L2 buffer write energy: 9118.9 X MAC energy
+L2 buffer read energy: 9118.9 X MAC energy
+L1 buffer write energy: 823.2 X MAC energy
+L1 buffer read energy: 823.2 X MAC energy
+Tensor filter
+L2 buffer write energy: 9118.9 X MAC energy
+L2 buffer read energy: 9118.9 X MAC energy
+L1 buffer write energy: 823.2 X MAC energy
+L1 buffer read energy: 823.2 X MAC energy
+Tensor output
+L2 buffer write energy: 18.61 X MAC energy
+L2 buffer read energy: 18.61 X MAC energy
+L1 buffer write energy: 823.2 X MAC energy
+L1 buffer read energy: 823.2 X MAC energy
+
+[Summary]
+Total L2 buffer requirement: 1962
+Total L1 buffer requirement: 294
+Total L2 buffer write energy: 18256.4 X MAC energy
+Total L2 buffer read energy: 18256.4 X MAC energy
+Total L1 buffer write energy: 2469.6 X MAC energy
+Total L1 buffer read energy: 2469.6 X MAC energy
+Total MAC energy: 490 X MAC energy
+Peak bandwidth requirement: 6
+Avg bandwidth requirement: 6
+
+Total energy consumption: 41942 X MAC energy
+Runtime: 245 cycles
+Throughput: 2 MACs/cycle
+Performance per MAC energy: 4.76849e-05 MACs/cycle/(MAC_energy)
+Ingress Delay
+Min: 98
+Max: 98
+Avg: 98
+Egress Delay
+Min: 1
+Max: 1
+Avg: 1
+Computation Delay
+Min: 147
+Max: 147
+Avg: 147
+Average number of utilized PEs: 10
+Arithmetic intensity: 0.5
+Buffer Analysis:
+[PASS]
+[Model-wise Buffer Summary]
+Model-wise total L2 size usage: 96952
+Model-wise total L1 size usage: 1236
+BW Analysis:
+[WARNING:BW] Per-layer NoC BW requirement [23] is larger than the given NoC BW [10]
+[WARNING:BW] Per-layer OffChip BW requirement [23] is larger than the given OffChip BW [10]
