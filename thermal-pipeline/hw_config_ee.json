@@ -1,0 +1,27 @@
+{
+  "_nota": "Valori INDICATIVI (datasheet/letteratura), da sostituire con il fit da tegrastats: R = (T_regime - T_amb) / P_regime, tau = costante di tempo dell'esponenziale di riscaldamento. T_lim da verificare nel Thermal Design Guide Jetson.",
+  "orin_nano": {
+    "description": "Jetson Orin Nano 8GB, modo 15W, dissipatore passivo in enclosure",
+    "clock_freq_hz": 625000000,
+    "dram_bw_gbs": 68.0,
+    "dram_pj_per_bit": 8.0,
+    "idle_power_w": 2.5,
+    "R_c_per_w": 5.0,
+    "tau_s": 150.0,
+    "T_amb_c": 45.0,
+    "T_lim_c": 95.0,
+    "footprint_px": 70
+  },
+  "xavier_agx": {
+    "description": "Jetson AGX Xavier 32GB, modo 30W, dissipatore con ventola",
+    "clock_freq_hz": 1377000000,
+    "dram_bw_gbs": 137.0,
+    "dram_pj_per_bit": 10.0,
+    "idle_power_w": 5.0,
+    "R_c_per_w": 1.55,
+    "tau_s": 300.0,
+    "T_amb_c": 45.0,
+    "T_lim_c": 95.0,
+    "footprint_px": 84
+  }
+}

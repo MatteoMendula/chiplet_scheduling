@@ -1,0 +1,38 @@
+{
+  "orin_nano": {
+    "footprint": 70,
+    "R": 0.012,
+    "tau": 50000000.0,
+    "dram_pj_per_bit": 12.0,
+    "clock_freq_hz": 625000000, 
+    "idle_power_mw": 4500.0,
+    "description": "NVIDIA Jetson Orin Nano (Modello Analitico)"
+  },
+  "xavier_agx": {
+    "footprint": 84,
+    "R": 0.006,
+    "tau": 50000000.0,
+    "dram_pj_per_bit": 18.0,
+    "clock_freq_hz": 1377000000,
+    "idle_power_mw": 12000.0,
+    "description": "NVIDIA Jetson AGX Xavier (Fanless Industrial, MAXN Mode)"
+  },
+  "orin_nano_eco": {
+    "footprint": 70,
+    "tau": 50000000.0,
+    "dram_pj_per_bit": 12.0,
+    "clock_freq_hz": 312500000, 
+    "idle_power_mw": 2500.0,
+    "t_limit": 85.0,
+    "description": "NVIDIA Jetson Orin Nano (Eco Mode 10W - Underclocked)"
+  },
+  "xavier_agx_eco": {
+    "footprint": 84,
+    "tau": 50000000.0,
+    "dram_pj_per_bit": 18.0,
+    "clock_freq_hz": 510000000,
+    "idle_power_mw": 6000.0,
+    "t_limit": 85.0,
+    "description": "NVIDIA Jetson AGX Xavier (Eco Mode 15W - Underclocked)"
+  }
+}
